@@ -1,0 +1,483 @@
+
+
+
+
+
+#body-header{
+	height: 500px;
+	width: 100%;
+	background-image: url("download.jpg");
+	background-size: cover;      
+	background-repeat: no-repeat;
+	background-color: blue;
+
+}
+
+/*================= HORIZONTAL FIRST LIST========================================================================*/
+
+.horizontal_list{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.text_center{
+	text-align: center;
+	font-size: 25px;
+}
+.horizontal_list li{
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+}
+.horizontal_list li a{
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s, border-bottom 1s;
+}
+
+.horizontal_list li a:hover{
+	color: red;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
+/*=====================================================================================*/
+#name-social-container{
+	margin-top: 20vh;
+}
+#my-name{
+	font-size: 60px;
+	/*margin-bottom: 10px;*/
+	letter-spacing: 1px;
+	color: white;
+}
+/*==========================ABOUT================================================================*/
+
+
+
+
+/*=========================================================================================*/
+
+
+.text_center2{
+	
+	/*margin-left: 38.5vw;*/
+	text-align: center;
+
+}
+.text_center2 li a img{
+	height: 45px;
+	width: 45px;
+}
+
+
+/*==============================================================================================*/
+#my-image{
+	height: auto;
+	width: 70vw;
+	
+	text-align: center;
+	margin-left: 14vw;
+}
+#my-image img{
+	height: 14rem;
+	width: 14rem;
+	/*margin:auto;*/
+	
+
+	margin-top: -13vh;
+	border-radius: 50%
+
+
+}
+.text_center22{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+/*================================================================*/
+#about{
+	height: auto;
+	
+	position: relative;
+
+}
+main{
+	width: 70vw;
+	margin-left: 14vw;
+	display: inline-block;
+	
+
+}
+
+section{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+
+}
+section:nth-child(2n){
+	background-color: lightgray;
+}
+section:nth-child(2n+1){
+	background-color: white;
+}
+/*=====================================================================*/
+.section-heading{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 10px 10px;
+
+}
+.section-heading span{
+	display: inline-block;
+	color: #285784;
+	font-size: 30px;
+}
+#about p{
+	font-size: 20px;
+}
+
+.skills-display{
+	width: 70vw;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	
+
+}
+.skills-display div{
+	/*height: 50px;
+	width: 250px;
+	margin :20px;
+	*/
+	height: 3rem;
+	width: 12rem;
+	margin :2rem;
+	
+	border-radius: 30px;
+	background-color: darkgray;
+}
+
+
+	
+
+#aa{
+
+	height: inherit;
+	width:40%;
+	background-color: blue;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+#same{
+	font-size: 40px;
+	margin-left: 20px;
+	color: white;
+	justify-content: center;
+}
+
+#bb{
+	height: inherit;
+	width:95%;
+	background-color: rgb(255, 0, 179);
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align:center;
+}
+#cc{
+	height: inherit;
+	width:50%;
+	background-color: green;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;	
+}
+#dd{
+	height: inherit;
+	width:60%;
+	background-color: brown;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+
+#ee{
+	
+height: inherit;
+	width:87%;
+	background-color: red;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+#ff{
+	height: inherit;
+	width:60%;
+	background-color: orange;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+#gg{
+	height: inherit;
+	width:80%;
+	background-color:purple;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+#hh{
+	height: inherit;
+	width:60%;
+	background-color: royalblue;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+/*==================  EXPERIENCE ================================================================================*/
+.experience-display{
+	width: 70vw;
+	height: auto;
+	
+	position:relative;
+	/*border:2px solid black;*/
+}
+.experience{
+	
+	width: 40%;
+	position: relative;
+	left: 5%;
+	margin:5px;
+	min-height: 150px;
+
+	/*border:2px solid black;*/
+}
+/*=======================================================*/
+/*to assign dots in the plane way*/
+.experience:nth-child(2n+1)::after{
+	background-color: red;
+	height: 0.7rem;
+	width: 0.7rem;
+	right: -11.7%;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	content: "";
+	z-index: 1;
+
+}
+
+.experience:nth-child(2n)::after{
+	background-color: red;
+	height: 0.7rem;
+	width: 0.7rem;
+	left: -10.7%;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	content: "";
+	z-index: 1;
+
+}
+
+
+/*============================================================*/
+
+.experience-display div:nth-child(2n){
+	left: 53%;
+
+}
+.experience-display-divider{
+	border:2px dashed blue;
+	height: 80%;
+	top:10%;
+	left: 49.5%;
+	position:absolute;
+	width: 0px;
+}
+.experience-display-divider2{
+	border:2px dashed blue;
+	height: 80%;
+	top:10%;
+	left: 49.5%;
+	position:absolute;
+	width: 0px;
+}
+.traveller{
+	position:sticky;
+	top: 20%;
+	transform:rotate(90deg);
+	margin-left: 0rem;
+	
+}
+
+.education-display-divider{
+	border:2px dashed green;
+	height: 80%;
+	top:10%;
+	margin-left : -3.4%;
+	position:absolute;
+	width: 0px;
+}
+.education-display-divider2{
+	border:2px dashed green;
+	height: 80%;
+	top:10%;
+	margin-left : -3.4%;
+	position:absolute;
+	width: 0px;
+}
+.traveller2{
+	position:sticky;
+	top: 20%;
+	margin:-1.6rem;
+	/*#transform:rotate(0deg);*/
+	/*margin-left: 1rem;*/
+}
+
+
+/*===============  EDUCATION  ==============================================================*/
+/*same as experience so its classes are used*/
+
+/*================ PORTFOLIO ================================================================*/
+
+.portfolio-info{
+	width: 70vw;
+	height: auto;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.portfolio-info div{
+	height: 20rem;
+	width: 16rem;
+	margin: 3rem;
+}
+
+.gallery{
+	margin:10px 40px;
+	background-color: rgb(233, 233, 114);
+	border-radius: 1rem;
+	}
+	.gallery img{
+	width:230px;
+	padding:25px;
+	background-color: transparent blue;
+	filter:grayscale(100%);
+	transition :1s;
+	border-radius: 2rem;
+	}
+	#verso img, #pyml img{
+		width:230px;
+		height: 330px;
+	}
+	.gallery img:hover{
+	filter:grayscale(0);
+	transform:scale(1.2)
+	}
+	#pirple img, #planb img{
+		height: 165px;
+	}
+	
+	.gallery button{
+		text-align: center;
+		margin-left:400px;
+		border-radius:5px;
+	background:linear-gradient(blue,#800000);
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	}
+	.gallery button:focus{
+	outline:none;
+	}
+	.gallery button:hover{
+	background: linear-gradient(#800000,blue);
+	transition: all ease-out 0.2s;
+	opacity:0.9;
+	filter:alpha(opacity=10);
+	}
+/*================= CONTACT INFO====================================================*/
+
+#contact{
+	background:repeating-linear-gradient(to bottom left ,rgb(119, 119, 219),rgb(137, 231, 235));
+}
+.contact-info{
+	width: 70vw;
+
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	/*border: 2px solid black;*/
+	/*position: relative;*/
+	justify-content: space-around;
+}
+.contact-info div{
+	height: 23rem;
+	position: relative;
+	/*margin: 4.7%;*/
+	width: 20rem;
+	justify-content: space-around;
+	/*border:1px solid white;*/
+}
+
+
+input{
+	display: block;
+}
+.contact1 input{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	border:none;
+	border-bottom: 1.5px solid white;
+	font-size: 1.7rem;
+	width: 100%;
+	background-color: rgb(219, 236, 118);
+
+}
+.message-button{
+	height:3rem;
+	width: 6rem;
+	font-size: 1.2rem;
+	margin-left: 25%;
+	color: white;
+	background-color: blue;
+	border: 1.5px solid white;
+
+}
+.contact-heading{
+	font-size: 170%;
+	color: white;
+	text-align: left;
+
+}
+.contact-para{
+	font-size: 1.2rem;
+	color:white;
+}
+footer{
+	background-color: black;
+	text-align: center;
+	color:blanchedalmond;
+}
